@@ -1,0 +1,128 @@
+.app {
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+.tools {
+  width: 80px;
+}
+
+.frames {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+img {
+  display: none;
+  width: 85px;
+  height: 85px;
+  image-rendering: pixelated;
+  margin: 5px auto;
+  border: 1px solid #000000;
+}
+
+#img_start {
+  display: block;
+  border: 0;
+  width: 1010px;
+  height: 80vh;
+  image-rendering: auto;
+  background-image: url(../../img/piskel-clone.jpg);
+}
+
+.change {
+  border: 3px solid red;
+}
+
+.noChange {
+  border: 1px solid #000000;
+}
+
+.canvas {
+  width: 514px;
+  height: 514px;
+  background-image: url(../../img/back.png) repeat;
+}
+
+.canvas-container {
+  border: 2px solid black;
+  width: 512px;
+  height: 512px;
+  image-rendering: pixelated;
+  border: 1px solid #000000;
+  background-image: url(../../img/back.png) repeat;
+}
+
+.animation {
+  width: 326px;
+}
+
+#animation {
+  width: 300px;
+  height: 300px;
+  image-rendering: pixelated;
+  border: 1px solid #000000;
+}
+
+.seting {
+  width: 10px;
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin-top: 5px;
+}
+
+.icon-tool-pen {
+  background-color: #444;
+  position: relative;
+  background-image: url(https://www.piskelapp.com/p/img/icons.png?20181125);
+  background-position: -182px -92px;
+  width: 46px;
+  height: 46px;
+}
+
+.icon-tool-paint-bucket {
+  background-color: #444;
+  position: relative;
+  background-image: url(https://www.piskelapp.com/p/img/icons.png?20181125);
+  background-position: -228px -92px;
+  width: 46px;
+  height: 46px;
+}
+
+.icon-tool-eraser {
+  background-color: #444;
+  position: relative;
+  background-image: url(https://www.piskelapp.com/p/img/icons.png?20181125);
+  background-position: -46px -228px;
+  width: 46px;
+  height: 46px;
+}
+
+.theme-container {
+  display: none;
+}
+
+a {
+  display: none;
+}
+
+button {
+  display: flex;
+}
+
+
+#hello {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#git {
+  display: block;
+}
